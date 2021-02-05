@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Barlow-Light";
+    src: url("./assets/Barlow-Light.woff2") format("woff2");
+        
+  }
+  h1{
+      font-family: "Barlow-Light";
+  }
