@@ -1,8 +1,77 @@
+body{
+    background-color: rgba(214, 213, 213, 0.829);
+}
+
+
+
 @font-face {
     font-family: "Barlow-Light";
     src: url("./assets/Barlow-Light.woff2") format("woff2");
         
   }
+  @font-face {
+    font-family: "Barlow-Bold";
+    src: url("./assets/Barlow-Bold.woff2") format("woff2");
+        
+  }
+  @font-face {
+    font-family: "Barlow-Regular";
+    src: url("./assets/Barlow-Regular.woff2") format("woff2");
+        
+  }
+
+
   h1{
       font-family: "Barlow-Light";
   }
+  h2{
+     font-family: "Barlow-Bold";
+  }
+  .paragraph1{
+      font-family: "Barlow-Regular";
+      font-size: 10px;
+      color: slategrey;
+      transform:rotate(15deg);
+  }
+  .paragraph2{
+    font-family: "Barlow-Regular";
+    font-size: 10px;
+    color: slategrey;
+    transform:rotate(-15deg);
+
+}
+.paragraph2:hover{
+    font-family: "Barlow-Regular";
+    font-size: 10px;
+    color: rgb(3, 187, 65);
+    transform:rotate(15deg);}
+.paragraph3{
+    font-family: "Barlow-Regular";
+    font-size: 10px;
+    color: slategrey;
+    transform:rotate(45deg);
+}
+.paragraph3:hover{
+    font-family: "Barlow-Regular";
+    font-size: 10px;
+    color: slategrey;
+    transform:rotate(-45deg);
+    
+}
+
+
+  .green{
+  color: chartreuse; 
+  text-decoration: underline;
+  font-size: 8px; 
+
+  }
+  .invisible{
+      color:palevioletred;
+
+  }
+  .invisible:hover{
+font-size: 100px;
+opacity:0;
+  }
+  
